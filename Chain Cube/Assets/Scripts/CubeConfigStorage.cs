@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "cube", menuName = "CubeConfig/CubeValueSettings")]
 public class CubeConfigStorage : ScriptableObject

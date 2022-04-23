@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _material: {fileID: 2100000, guid: 91b60f5b81f80c94b8b89656ce88857f, type: 2}
-  _movingForce: 1500
+  _movingForce: 1300
   _jumpForce: 300
   _rebound: 100
   _aim: {fileID: 7139371420350257595}

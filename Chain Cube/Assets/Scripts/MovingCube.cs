@@ -13,9 +13,10 @@ public class MovingCube : MonoBehaviour
     [SerializeField] private GameObject _aim;
     [SerializeField] private List<TMP_Text> _cubeValues;
     private Rigidbody _rigidbody;
-    private CubeCreating _cubeCreating;
+    private GameManager _gameManager;
     private bool _isMoving = false;
     private bool _isUpdating = false;
+
     public bool IsUsed { get; set; } = true;
     public int Value { get; set; }
 
@@ -26,7 +27,7 @@ public class MovingCube : MonoBehaviour
                 if(!_isUpdating)
                 {
                      _isUpdating = true;
-                     _cubeCreating.CreateNewCube(collision.gameObject.GetComponent<MovingCube>());
+                     _gameManager.CreateNewCube(collision.gameObject.GetComponent<MovingCube>());
                 }
                 Destroy(gameObject);
             }
@@ -65,9 +66,9 @@ public class MovingCube : MonoBehaviour
         _rigidbody.AddForce(Vector3.right * _rebound);
     }
 
-    public void SetParametrs(CubeCreating cubeCreating, CubeConfigStorage cubeValues)
+    public void SetParametrs(GameManager gamaManager, CubeConfigStorage cubeValues)
     {
-        _cubeCreating = cubeCreating;
+        _gameManager = gamaManager;
         gameObject.GetComponent<MeshRenderer>().material = cubeValues.CubeMaterial;
         foreach (var value in _cubeValues)
         {
@@ -75,5 +76,4 @@ public class MovingCube : MonoBehaviour
         }
         Value = Convert.ToInt32(cubeValues.CubeValue);
     }
-
 }

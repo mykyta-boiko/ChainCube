@@ -1,0 +1,63 @@
+﻿{
+  "Items": [
+    {
+      "Key": "Start",
+      "Value": "Начать"
+    },
+
+    {
+      "Key": "EffectsText",
+      "Value": "Эффекты"
+    },
+
+    {
+      "Key": "MusicText",
+      "Value": "Музыка"
+    },
+
+    {
+      "Key": "LanguagesText",
+      "Value": "Языки"
+    },
+
+    {
+      "Key": "EnglishText",
+      "Value": "Аглийский"
+    },
+
+    {
+      "Key": "RussianText",
+      "Value": "Русский"
+    },
+
+    {
+      "Key": "PauseText",
+      "Value": "Пауза"
+    },
+
+    {
+      "Key": "RestartText",
+      "Value": "Перезапустить"
+    },
+
+    {
+      "Key": "BackMainMenuText",
+      "Value": "Главное меню"
+    },
+
+    {
+      "Key": "ResumeText",
+      "Value": "Возобновить"
+    },
+
+    {
+      "Key": "RewardText",
+      "Value": "Награда"
+    },
+
+    {
+      "Key": "LoseText",
+      "Value": "Вы заработали: "
+    }
+  ]
+}

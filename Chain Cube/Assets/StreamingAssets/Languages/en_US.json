@@ -1,0 +1,58 @@
+{
+  "Items": [
+    {
+      "Key": "Start",
+      "Value": "Start"
+    },
+
+    {
+      "Key": "EffectsText",
+      "Value": "Effects"
+    },
+
+    {
+      "Key": "MusicText",
+      "Value": "Music"
+    },
+
+    {
+      "Key": "LanguagesText",
+      "Value": "Languages"
+    },
+
+    {
+      "Key": "EnglishText",
+      "Value": "English"
+    },
+
+    {
+      "Key": "RussianText",
+      "Value": "Russian"
+    },
+
+    {
+      "Key": "PauseText",
+      "Value": "Pause"
+    },
+
+    {
+      "Key": "RestartText",
+      "Value": "Restart"
+    },
+
+    {
+      "Key": "BackMainMenuText",
+      "Value": "Back to main menu"
+    },
+
+    {
+      "Key": "ResumeText",
+      "Value": "Resume"
+    },
+
+    {
+      "Key": "RewardText",
+      "Value": "Reward"
+    }
+  ]
+}
